@@ -15,3 +15,11 @@ Checked on 2026-10-09T04:21:49.842Z.
 - Independent read-only review completed; whitespace input blockers fixed and regression checked.
 
 These are demonstration checks, not clinical, production or regulatory validation. Automated scans supplement content review and do not mathematically prove absence of every possible sensitive value.
+
+## Product preview verification — 2026-10-20
+
+- Existing Node rule tests and TypeScript/Vite production build pass.
+- Screenshots were captured from this independent frontend using only its fabricated fixtures; no operational system or real data source was opened.
+- Overview and alternate workflow-state screenshots are stored in `docs/previews/`. Both show the frontend-prototype / fictional-data banner.
+- Browser checks covered PV unknown-agreement follow-up, RWE balanced/enriched method switching, and SDV guardian-identity manual review.
+- The frontend has no account, backend connection, upload, telemetry or production write. Publication and live-host checks are tracked by the personal website release.
